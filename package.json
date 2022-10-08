@@ -1,0 +1,35 @@
+{
+  "name": "vue3-module-frame-main",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:module": "cross-env BUILD_MODULE=1 vite build"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.9",
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.17",
+    "pinia": "^2.0.22",
+    "vue": "^3.2.37",
+    "vue-router": "4.0.10",
+    "yh-request": "0.0.3"
+  },
+  "external": {
+    "vue": "Vue",
+    "vue-router": "VueRouter",
+    "element-plus": "ElementPlus",
+    "yh-request": "YhRequest",
+    "pinia": "Pinia"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/compiler-sfc": "^3.2.37",
+    "cross-env": "^7.0.3",
+    "rollup-plugin-styles": "^4.0.0",
+    "vite": "3.0.0-beta.10"
+  },
+  "description": "a admincraft project",
+  "author": "chente"
+}
